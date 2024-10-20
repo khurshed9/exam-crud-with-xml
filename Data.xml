@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<source>
+  <products>
+    <product>
+      <id>2</id>
+      <name>Grapes</name>
+      <description>Nice choose</description>
+      <quantity>8</quantity>
+      <price>24</price>
+      <categoryId>1</categoryId>
+    </product>
+    <product>
+      <id>1</id>
+      <name>Apple</name>
+      <description>Fresh fruit</description>
+      <quantity>12</quantity>
+      <price>7</price>
+      <categoryId>1</categoryId>
+    </product>
+    <product>
+      <id>3</id>
+      <name>WaterMelon</name>
+      <description>Sweet</description>
+      <quantity>24</quantity>
+      <price>25</price>
+      <categoryId>1</categoryId>
+    </product>
+    <product>
+      <id>4</id>
+      <name>Cherry</name>
+      <description>Red fruit</description>
+      <quantity>35</quantity>
+      <price>40</price>
+      <categoryId>1</categoryId>
+    </product>
+  </products>
+  <categories>
+    <category>
+      <id>1</id>
+      <name>Fruit</name>
+      <description>Only fresh</description>
+    </category>
+    <category>
+      <id>2</id>
+      <name>Vegetable</name>
+      <description>Also fresh</description>
+    </category>
+  </categories>
+  <suppliers>
+    <supplier>
+      <id>1</id>
+      <name>Supplier A</name>
+      <contactperson>Ivan Ivanov</contactperson>
+      <email>vanov@example.com</email>
+      <phone>+992123456790</phone>
+    </supplier>
+    <supplier>
+      <id>2</id>
+      <name>Supplier B</name>
+      <contactperson>Petr Petrov</contactperson>
+      <email>petrov@example.com</email>
+      <phone>+9921443556790</phone>
+    </supplier>
+  </suppliers>
+  <orders>
+    <order>
+      <id>1</id>
+      <quantity>11</quantity>
+      <orderdate>2020-10-20T13:52:11.936Z</orderdate>
+      <status>InProgress</status>
+      <produciId>1</produciId>
+      <supplierid>1</supplierid>
+    </order>
+    <order>
+      <id>2</id>
+      <quantity>21</quantity>
+      <orderdate>2021-10-20T13:52:11.936Z</orderdate>
+      <status>InProgress</status>
+      <produciId>2</produciId>
+      <supplierid>1</supplierid>
+    </order>
+    <order>
+      <id>3</id>
+      <quantity>33</quantity>
+      <orderdate>2022-10-20T13:52:11.936Z</orderdate>
+      <status>Delivered</status>
+      <produciId>1</produciId>
+      <supplierid>2</supplierid>
+    </order>
+    <order>
+      <id>4</id>
+      <quantity>44</quantity>
+      <orderdate>2023-10-20T13:52:11.936Z</orderdate>
+      <status>Delivered</status>
+      <produciId>1</produciId>
+      <supplierid>1</supplierid>
+    </order>
+    <order>
+      <id>5</id>
+      <quantity>54</quantity>
+      <orderdate>2024-10-20T13:52:11.936Z</orderdate>
+      <status>InProgress</status>
+      <produciId>2</produciId>
+      <supplierid>2</supplierid>
+    </order>
+  </orders>
+</source>
